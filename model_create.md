@@ -35,3 +35,19 @@ console.log(invoiceItemModel1);
 console.log(invoiceItemModel2);
 ```
 <http://jsfiddle.net/gs_jquery/45wLggra/>
+
+
+###设置模型默认的属性值
+```js
+//定义一个数据模型并设置默认值
+var InvoiceItemModel = Backbone.Model.extend({
+    defaults: {
+        price: 10
+    },
+    initialize: function () {
+        this.set('name', 'kyo');
+    }
+});
+var invoiceItemModel = new InvoiceItemModel();
+console.log(invoiceItemModel);
+```
