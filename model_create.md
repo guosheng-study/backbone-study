@@ -17,3 +17,12 @@ var invoiceItemModel = new InvoiceItemModel({
 var newModel = invoiceItemModel.clone();
 console.log(newModel);
 ```
+
+###设置模型默认的属性值
+```js
+var InvoiceItemModel = Backbone.Model.extend({
+    defaults : {
+        price : 10
+    }
+});
+```
