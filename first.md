@@ -1,5 +1,5 @@
 #第一个backbone代码
-···js
+```js
 var InvoiceItemModel = Backbone.Model.extend({
     defaults: {
         price: 0,
@@ -33,5 +33,4 @@ var invoiceItemView = new InvoiceItemView({
 });
 
 invoiceItemView.render();
-
 ```
