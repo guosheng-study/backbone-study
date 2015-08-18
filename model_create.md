@@ -11,3 +11,9 @@ var invoiceItemModel = new InvoiceItemModel({
 ```
 
 <http://jsfiddle.net/gs_jquery/1e920atd/>
+
+###复制模型
+```js
+var newModel = invoiceItemModel.clone();
+console.log(newModel);
+```
