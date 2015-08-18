@@ -34,4 +34,4 @@ var invoiceItemModel2 = new InvoiceItemModel2({});
 console.log(invoiceItemModel1);
 console.log(invoiceItemModel2);
 ```
-
+<http://jsfiddle.net/gs_jquery/45wLggra/>
