@@ -9,3 +9,5 @@ var invoiceItemModel = new InvoiceItemModel({
   price : 22
 });
 ```
+
+<http://jsfiddle.net/gs_jquery/1e920atd/>
