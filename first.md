@@ -39,3 +39,4 @@ var invoiceItemView = new InvoiceItemView({
 //视图渲染
 invoiceItemView.render();
 ```
+<http://jsfiddle.net/gs_jquery/dkrphq4w/>
