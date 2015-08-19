@@ -13,3 +13,4 @@ invoiceItemModel.id = _.now();
 var id = invoiceItemModel.id;
 console.log(id);
 ```
+<http://jsfiddle.net/gs_jquery/ghx75pmz/>
