@@ -69,3 +69,5 @@ var isValid = invoiceItemModel.isValid();
 console.log(isValid);
 ```
 <http://jsfiddle.net/gs_jquery/qdxm0hsm/>
+
+未解理知识fetch() save() destroy()
