@@ -4,7 +4,7 @@
 ###模型
 [创建模型](model_create.md)   
 [模型属性操作](model_attr.md)   
-[模型标识符操作]   
+[模型标识符操作](model_id.md)     
 [模型属性验证]   
 [重写getters与setters方法]   
 [通过创建撤销点来保存/恢复模型的装态]   
