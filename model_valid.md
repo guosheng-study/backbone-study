@@ -68,3 +68,4 @@ var invoiceItemModel = new InvoiceItemModel({
 var isValid = invoiceItemModel.isValid();
 console.log(isValid);
 ```
+<http://jsfiddle.net/gs_jquery/qdxm0hsm/>
