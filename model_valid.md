@@ -4,7 +4,7 @@ var InvoiceItemModel = Backbone.Model.extend({
     //验证
     validate: function (attrs) {
         if (attrs.price <= 0) {
-            console.log("false");
+            return "price fail";
         }
     }
 });
