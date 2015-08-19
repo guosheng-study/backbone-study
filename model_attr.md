@@ -50,3 +50,4 @@ invoiceItemModel.clear();
 price = invoiceItemModel.get('price');
 console.log('清除所有属性：' + price);
 ```
+<http://jsfiddle.net/gs_jquery/6j59hzbo/>
