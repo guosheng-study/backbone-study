@@ -46,3 +46,4 @@ invoiceItemModel.set('price', -1, {
     validate: true
 });
 ```
+<http://jsfiddle.net/gs_jquery/e45hyzz5/>
