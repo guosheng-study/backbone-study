@@ -81,3 +81,33 @@ vipname = buyerModel.get('vip');
 console.log(vipname);
 ```
 <http://jsfiddle.net/gs_jquery/aohmw6mb/>
+
+#处理赋值方法的事件
+```js
+var BuyerModel = Backbone.Model.extend({
+	//使用插件 Backbone.Mutators
+	mutators: {
+		vip: {
+			get: function() {
+				return this.attributes.vip ? 'VIP' : 'Regular';
+			},
+			set: function(key, value, options, set) {
+				set('vip', value === 'VIP', {});
+			}
+		}
+	}
+});
+
+//实例化
+var buyerModel = new BuyerModel();
+
+buyerModel.on('mutators:set:vip', function(a, b, c, d) {
+	console.log('mutators:set:vip');
+});
+
+buyerModel.set('vip', 'VIP');
+vipname = buyerModel.get('vip');
+console.log(vipname);
+```
+<http://jsfiddle.net/gs_jquery/ad8ntyty/>
+
