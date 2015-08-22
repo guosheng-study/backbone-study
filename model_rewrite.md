@@ -57,7 +57,7 @@ console.log(firstName, lastName);
 ```
 <http://jsfiddle.net/gs_jquery/wrzLjccb/>
 
-
+#再来一个getter
 ```js
 var BuyerModel = Backbone.Model.extend({
     //使用插件 Backbone.Mutators
