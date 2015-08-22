@@ -56,3 +56,28 @@ var lastName = buyerModel.get('lastName');
 console.log(firstName, lastName);
 ```
 <http://jsfiddle.net/gs_jquery/wrzLjccb/>
+
+
+```js
+var BuyerModel = Backbone.Model.extend({
+    //使用插件 Backbone.Mutators
+    mutators: {
+        vip: {
+            get: function() {
+                return this.attributes.vip ? 'VIP' : 'Regular';
+            }
+        }
+    }
+});
+
+//实例化
+var buyerModel = new BuyerModel();
+
+var vipname = buyerModel.get('vip');
+console.log(vipname);
+
+buyerModel.set('vip', true);
+vipname = buyerModel.get('vip');
+console.log(vipname);
+```
+<http://jsfiddle.net/gs_jquery/aohmw6mb/>
