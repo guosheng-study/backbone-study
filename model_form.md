@@ -78,3 +78,4 @@ $(function() {
 总结：
 - 模型上要使用验证
 - 设置的时候也要使用验证
+- 在线代码:<http://jsfiddle.net/gs_jquery/Lv16gv3h/1/>
