@@ -8,7 +8,7 @@ var InvoiceItemCollection = Backbone.Collection.extend({
 });
 
 //创建集合
-var invoiceItemCollection = new InvoiceItemModel([{
+var invoiceItemCollection = new InvoiceItemCollection([{
     name: 'kyo',
     age: 18
 }, {
