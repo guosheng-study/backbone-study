@@ -1,3 +1,6 @@
+#创建集合
+
+```js
 var InvoiceItemModel = Backbone.Model.extend({});
 
 var InvoiceItemCollection = Backbone.Collection.extend({
@@ -16,4 +19,10 @@ var invoiceItemCollection = new InvoiceItemCollection([{
     age: 19
 }]);
 
-console.log(invoiceItemCollection);
+
+var length = invoiceItemCollection.length;
+console.log(length);
+
+var model = invoiceItemCollection.at(2);
+console.log(model.get('age'));
+```
