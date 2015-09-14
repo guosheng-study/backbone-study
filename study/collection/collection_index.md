@@ -1,4 +1,4 @@
-#创建集合
+#使用索引从集合中获取模型
 
 ```js
 var InvoiceItemModel = Backbone.Model.extend({});
