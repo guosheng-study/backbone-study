@@ -1,4 +1,4 @@
-#使用索引从集合中获取模型
+#使用ID从集合中获取模型
 
 ```js
 var InvoiceItemModel = Backbone.Model.extend({});
