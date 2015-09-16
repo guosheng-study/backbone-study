@@ -17,8 +17,16 @@ var invoiceItemCollection = new InvoiceItemCollection([{
     id: 'cc3',
     name: 'jone',
     age: 19
+}, {
+    id: 'cc4',
+    name: 'jack',
+    age: 20
 }]);
 
 //删除一个模型
 invoiceItemCollection.remove('cc1');
+console.log(invoiceItemCollection);
+
+//也可以删除多个
+invoiceItemCollection.remove(['cc2', 'cc3']);
 console.log(invoiceItemCollection);
