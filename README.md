@@ -19,6 +19,7 @@
 [使用索引从集合中获取模型](study/collection/collection_index.md)   
 [使用ID从集合中获取模型](study/collection/collection_id.md)   
 [为集合添加一个模型](study/collection/collection_add.md)   
+[从集合中移除一个模型](study/collection/collection_del.md)   
 [以栈或队列的方式使用集合](study/collection/collection_pop.md)   
 [对集合进行排序](study/collection/collection_sort.md)   
 [对集合中的模型进行过滤](study/collection/collection_fiter.md)   
