@@ -22,7 +22,7 @@
 [从集合中移除一个模型](study/collection/collection_del.md)   
 [以栈或队列的方式使用集合](study/collection/collection_pop.md)   
 [对集合进行排序](study/collection/collection_sort.md)   
-[对集合中的模型进行过滤](study/collection/collection_fiter.md)   
+[对集合中的模型进行过滤](study/collection/collection_where.md)   
 [对集合进行遍历](study/collection/collection_each.md)   
 [在集合上执行NoSQL](study/collection/collection_nosql.md)   
 [在同一个集合中存储不同类型的模型](study/collection/collection_same.md)   
