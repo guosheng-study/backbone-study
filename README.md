@@ -24,6 +24,7 @@
 [对集合进行排序](study/collection/collection_sort.md)   
 [对集合中的模型进行过滤](study/collection/collection_where.md)   
 [对集合进行遍历](study/collection/collection_each.md)   
+[集合的链式操作](study/collection/collection_chain.md)   
 [在集合上执行NoSQL](study/collection/collection_nosql.md)   
 [在同一个集合中存储不同类型的模型](study/collection/collection_same.md)   
 [实现一对多的关系](study/collection/collection_one_to_many.md)   
